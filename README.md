@@ -4,8 +4,6 @@
 ## 📌 Overview
 This project analyzes customer purchasing behavior on Snapdeal to uncover product associations, customer segments, and recommendation insights using Python.
 
----
-
 ## 🎯 Problem Statement
 E-commerce platforms like Snapdeal need to understand:
 - Products frequently bought together (cross-selling opportunities)
@@ -13,7 +11,6 @@ E-commerce platforms like Snapdeal need to understand:
 - Customer segmentation for personalized marketing
 - Factors driving customer loyalty and repeat purchases
 
----
 
 ## ⚙️ Tools & Technologies
 - Python  
@@ -23,7 +20,6 @@ E-commerce platforms like Snapdeal need to understand:
 - Scikit-learn (K-Means Clustering)  
 - MLxtend (Association Rule Mining)
 
----
 
 ## 🧹 Data Cleaning & Preparation
 - Removed duplicate and inconsistent records  
@@ -32,29 +28,25 @@ E-commerce platforms like Snapdeal need to understand:
 - Converted rating columns into numeric format  
 - Cleaned column names  
 
----
-
 ## 📊 Descriptive Analysis
 - Analyzed customer demographics (age, gender)  
 - Identified most popular product categories  
 - Studied purchase frequency patterns  
 - Evaluated customer satisfaction and recommendation behavior  
 
----
-
 ## 👥 Customer Segmentation
 
 ### Segments Created:
-- Frequent Buyers → High purchase + high satisfaction  
-- Occasional Shoppers → Moderate engagement  
-- At-Risk Customers → Low satisfaction / high abandonment  
+On basis of
+** Customer_Review_Importance
+&
+** Shopping_Satisfaction
 
 ### Technique Used:
 - K-Means Clustering  
 
----
 
-## 🔗 Market Basket Analysis
+## 🔗 Market Basket Analysis(Snapdeal)
 
 - Applied Association Rule Mining  
 - Identified frequently purchased product combinations  
@@ -68,29 +60,47 @@ E-commerce platforms like Snapdeal need to understand:
 ## 💡 Recommendation Insights
 - Strong correlation between recommendation helpfulness and satisfaction  
 - Reliable reviews improve purchase decisions  
-- Personalized recommendations increase engagement  
-
----
-
+- Personalized recommendations increase engagement
+ 
 ## 📈 Visual Insights
 
-### 🛍️ Product Category Distribution
+### 🛍️ Purchase Category Distribution
+![Purchase Category](Purchase_Category.png)
+
+### 🌐 Browsing Method Analysis
+![Browsing Method](Browsing_Method.png)
+
+### 🛒 Cart Abandonment Factors
+![Cart Abandonment](Cart_Abandonment_Factors.png)
+
+### 📊 Shopping Satisfaction
+![Shopping Satisfaction](Shopping_Satisfaction.png)
 
 
-### 📊 Purchase Frequency
+
+## 🤖 Machine Learning Insights
+
+### 🔥 Customer Segmentation
+![Customer Segmentation](Customer_Segmentation&Profiling.png)
+
+### 📍 Cluster Formation
+![Clusters Formation](Clusters_Formation.png)
 
 
-### 📉 Customer Satisfaction
 
+## 📊 Correlation Analysis
 
-### 🔥 Correlation Heatmap
+### 📉 Feature Correlation Heatmap
+![Heatmap](Heatmap_Correlation.png)
+
 
 
 ## 📁 Files Included
-- market_basket_analysis.ipynb → Python notebook  
-- dataset.csv → Dataset  
+- Customer_Segmentation_analysis.ipynb → Python notebook
+- Behavior_Analysis.ipynb → Python notebook 
+- Data_cleaning.ipynb → Python notebook 
 - visuals → Charts and graphs  
-- report.pdf → Summary report  
+- Visualization and Reporting.ipynb → Python notebook 
 
 
 ## 🎯 Key Insights
@@ -109,4 +119,5 @@ E-commerce platforms like Snapdeal need to understand:
 
 
 ## 🙌 Author
-Shruti Sah
+
+Shruti Sahu
