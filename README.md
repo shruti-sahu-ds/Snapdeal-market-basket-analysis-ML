@@ -71,7 +71,7 @@ On basis of
 ![Browsing Method](Browsing_Method.png)
 
 ### 🛒 Cart Abandonment Factors
-![Cart Abandonment](Cart_Abandonment_Factors.png)
+![Cart Abandonment](Cart_Abdonment_Factors.png)
 
 ### 📊 Shopping Satisfaction
 ![Shopping Satisfaction](Shopping_Satisfaction.png)
@@ -81,7 +81,7 @@ On basis of
 ## 🤖 Machine Learning Insights
 
 ### 🔥 Customer Segmentation
-![Customer Segmentation](Customer_Segmentation&Profiling.png)
+![Customer Segmentation](Customer_Segmentation.png)
 
 ### 📍 Cluster Formation
 ![Clusters Formation](Clusters_Formation.png)
